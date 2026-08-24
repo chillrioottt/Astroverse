@@ -185,4 +185,18 @@ Built by **Shubhashish**, an astronomy enthusiast fascinated by the universe, as
 *The universe is waiting.*
 
 </div>
+## License
+Astroverse is free and open-source software licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
 
+You are free to:
+- 🔍️ Study the source code
+- 🛠️ Modify it
+- 📦️ Create and contribute improvements
+- 🌱 Distribute modified versions
+- 💻️ Use it commercially
+
+However, when the AGPL's conditions apply, redistributed or modified versions must preserve the freedoms granted by the license. In particular, the AGPL includes additional requirements for modified versions made available to users over a network.
+
+See the [`LICENSE`](./LICENSE) file for the complete license text.
+
+> **Astroverse is built to be explored, improved, and shared - while keeping the freedoms of its users intact**
