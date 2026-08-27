@@ -6,15 +6,14 @@
     <body>
         <header>
             <h1>ASTROVERSE</h1>
-        
-        <nav>
-            <a href="home.html" class="home">Home</a>
-            <a href="#news" class="news">Latest News</a>
-            <a href="#network" class="network">Network</a>
-            <a href="#researchcenter" class="researchcenter">Research Center</a>
-            <a href="about.html" class="about">About</a>
-            </nav>  
-        </nav>
+
+            <nav>
+                <a href="home.html" class="home">Home</a>
+                <a href="#news" class="news">Latest News</a>
+                <a href="#network" class="network">Network</a>
+                <a href="#researchcenter" class="researchcenter">Research Center</a>
+                <a href="about.html" class="about">About</a>
+            </nav>
         </header>
         <div class="container" id="about">
         <h3>ABOUT ME</h3>
@@ -49,27 +48,33 @@ overflow-x: hidden;
         }
 nav a {
     color: cyan;
-text-decoration: none;
-margin: 0 15px;
-font-size 18px;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
 }
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 20px;
+    background-color: rgb(2, 37, 134);
+    border-radius: 5px;
+}
+
 .container {
     background: rgb(0, 26, 44);
-padding: 20px;
-margin-top: 20px;
-border-radius: 10px;
-}
-.container2 {
-     background: rgb(0, 26, 44);
-padding: 20px;
-margin-top: 20px;
-border-radius: 10px;
-}
-}
-nav {
     padding: 20px;
-background-color: rgb(2, 37, 134);
-border-radius: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.container2 {
+    background: rgb(0, 26, 44);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
     </style>
 </html>
