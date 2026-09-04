@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Astroverse - exploring the cosmos</title>
+    </head>
+    <body>
+        <h1>ASTROVERSE</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3>Welcome To The Astroverse Community!</h3>
+        <br>
+        <br>
+        <input type="text" placeholder="Username" id="username">
+        <br>
+        <br>
+        <input type="text" placeholder="Email Address" id="email">
+        <br>
+        <br>
+        <input type="password" placeholder="Password" id="password">
+        <br>
+        <br>
+        <input type="password" placeholder="Confirm Password" id="confirmpassword">
+        <br>
+        <p id="alert"></p>
+        <br>
+        <button onclick="signup()">Sign Up</button>
+    </body>
+    <style>
+        body {
+            text-align: center;
+            font-family: "Exo 2";
+            background-color: rgb(0, 17, 29);
+            color: white;
+        }
+        input {
+            background-color: rgb(24, 24, 24);
+            border: solid 1px rgb(2, 37, 134);
+            font-size: 15px;
+            height: 40px;
+            width: 500px;
+            border-radius: 5px;
+            color: rgb(2, 37, 134);
+            font-family: "Exo 2";
+        }
+        button {
+            font-size: 15px;
+            background-color: rgb(2, 37, 134);
+            color:white;
+            padding: 10px;
+            width: 500px;
+            height: 40px;
+            border-radius: 5px;
+            outline: none;
+            box-shadow: none;
+            border: none;
+        }
+        input::placeholder {
+            color: rgb(2, 37, 134);
+        }
+        button:active {
+            background-color: rgb(0, 28, 104);
+            }
+        #alert {
+            color: red;
+        }
+    </style>
+    <script>
+        function signup() {
+            const username = document.getElementById("username").value;
+            const emailAdress = document.getElementById("email").value;
+            const password = document.getElementById("password").value;
+            const confirmPassword = document.getElementById("confirmpassword").value;
+            const alertElement = document.getElementById("alert")
+            if(username === "" || emailAdress === "" || password === "" || confirmPassword === "") {
+                alertElement.innerHTML = "Please enter credentials"
+                return;
+            }
+            if(password !== confirmPassword) {
+                alertElement.innerHTML = "Incorrect credentials. Please try again."
+                return;
+            }
+            //redirect screen
+            window.location.href= "home.html";
+        }
+    </script>    
+</html>
