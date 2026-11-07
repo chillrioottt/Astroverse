@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Exo 2 Local";
+    font-family: "Exo 2";
     src: url("fonts/Exo_2/Exo2-VariableFont_wght.ttf") format("truetype");
     font-style: normal;
     font-weight: 100 900;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: "Exo 2 Local";
+    font-family: "Exo 2";
     src: url("fonts/Exo_2/Exo2-Italic-VariableFont_wght.ttf") format("truetype");
     font-style: italic;
     font-weight: 100 900;
@@ -17,5 +17,5 @@
 body,
 input,
 button {
-    font-family: "Exo 2 Local", sans-serif !important;
+    font-family: "Exo 2", sans-serif !important;
 }
